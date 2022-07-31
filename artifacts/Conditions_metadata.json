@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					}
+				],
+				"name": "check",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"conditions.sol": "Conditions"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"conditions.sol": {
+			"keccak256": "0xee3ab73444cd67128d1700fa9279e63f685db6e8c201e572f4ba5573a47680eb",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://757945cce5f6a116f72df46c16b588043515e3bdba89a1679c71753850ae399f",
+				"dweb:/ipfs/QmPuLmeCHCihGzbntfVi1NS3V1UY32NzjQQ2oLD5cJZbaN"
+			]
+		}
+	},
+	"version": 1
+}

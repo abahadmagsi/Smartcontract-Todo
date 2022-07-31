@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "check",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "flag",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"bool.sol": "boole"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"bool.sol": {
+			"keccak256": "0x30ff4231e98932fa63f70ee7e5df741a730f6b6aa0e52b19866016033bff79bb",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8b983086b7fc3a298c04941cc80af82c2c87955faf003bfbfe2e982a85380be0",
+				"dweb:/ipfs/QmYoghXgmJzRKSf7HBQZ3E7WYeW6iUKyqg41Qzt2vSfPiN"
+			]
+		}
+	},
+	"version": 1
+}

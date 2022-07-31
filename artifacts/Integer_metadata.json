@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "nmbr",
+				"outputs": [
+					{
+						"internalType": "int8",
+						"name": "",
+						"type": "int8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"integer.sol": "Integer"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"integer.sol": {
+			"keccak256": "0x558b2da3ade8bae50a3543ffea89e65305c2774ecef3f6315d6fd7ce965455d1",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1628ec0cd7928ffe04cf55b00f4a55477bbb1e0ea8966be5594cab947fae182a",
+				"dweb:/ipfs/QmZyipqDDTQKepebjPPg4FoAXnmc9A51nwg9cvkSi4qnhL"
+			]
+		}
+	},
+	"version": 1
+}
