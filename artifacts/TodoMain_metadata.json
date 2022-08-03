@@ -6,6 +6,25 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "TaskCreate",
+				"type": "event"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -14,7 +33,7 @@
 					},
 					{
 						"internalType": "string",
-						"name": "todo",
+						"name": "_todoName",
 						"type": "string"
 					}
 				],
@@ -24,28 +43,8 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_id_",
-						"type": "uint256"
-					}
-				],
-				"name": "dltTodo",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [],
-				"name": "resetAll",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "showTodos",
+				"name": "showTodo",
 				"outputs": [
 					{
 						"components": [
@@ -56,34 +55,16 @@
 							},
 							{
 								"internalType": "string",
-								"name": "todoText",
+								"name": "todoName",
 								"type": "string"
 							}
 						],
-						"internalType": "struct Todo.todoObj[]",
+						"internalType": "struct TodoMain.TodoObj[]",
 						"name": "",
 						"type": "tuple[]"
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "id_",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "new_todoText",
-						"type": "string"
-					}
-				],
-				"name": "updateTodos",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -100,7 +81,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Todo.sol": "Todo"
+			"todomain.sol": "TodoMain"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -114,12 +95,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Todo.sol": {
-			"keccak256": "0x1683b3567cb98f5242657f9db02cb4325d0ed84f5d5b0b9628b93c51acc798a5",
+		"todomain.sol": {
+			"keccak256": "0x63647eb651fbb663195c0c78dae3ab7271291dfc7e4e32663fd26b2805d0c652",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c937ec0b8f39cfa6b076123cffe1088cac4dece8a1b44b7ea37292112c0c17f1",
-				"dweb:/ipfs/Qmd82W5vFexYieTQDjVVFPKr93bPqq2EHH9mReuqcyQ3DG"
+				"bzz-raw://80f71e1bec0a54e78cf415d1047f31b47dadb29be6aa21962fc1eb6a88b6792e",
+				"dweb:/ipfs/QmPTgvEaTjazCATNCpUzztjw8yMhDQYWDBdVvQ5kX5DaYZ"
 			]
 		}
 	},
